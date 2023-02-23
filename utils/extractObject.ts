@@ -40,7 +40,7 @@ export function extractObject(useEsriNameFlag:string,ESRI_variableDescription,ES
           period: "This has not yet been set",
         },
       }
-    const data = fs.readFileSync('metaDataObjectChangedV25.json', 
+    const data = fs.readFileSync('metaDataObjectChangedV27.json', 
                 {encoding:'utf8', flag:'r'}); 
     let jsonData = data;
     processFile();
