@@ -5,7 +5,7 @@
 
 import express, { Router } from "express";
 import { debug, memory } from "console";
-import responses from "../responses"; // contains placeholder responses
+import responses from "../responsesNew"; // contains placeholder responses
 import dotenv from "dotenv";
 
 import collection_collectionId_position from "../routes/collections/collectionId/position_July27th_Hybrid";
