@@ -31,16 +31,15 @@ const collectionCollectionIdArea = new collection_collectionId_area(protocol, ta
 // --- ROUTES ---
 
 /** list all requirements classes specified in a standard that the server conforms to */
-/** /router.get("/", (req, res) => {
+router.get("/", (req, res) => {
     debug("GET /collections");
     debug(`Request url: ${req.url}`);
     res.status(200).json(responses.collections);
 });
-*/
-let testCall=collectionMetaData.route
-console.log("testCall",testCall);
-console.log("testCall",testCall);
-router.use("/", collectionMetaData.route);  //  This is the route for /collections
+//let testCall=collectionMetaData.route
+//console.log("testCall",testCall);
+//console.log("testCall",testCall);
+//router.use("/", collectionMetaData.route);  //  This is the route for /collections
 
 router.use("/:collectionId", collectionIdMetaData.route);
 //router.get("/:collectionId", (req, res) => {
