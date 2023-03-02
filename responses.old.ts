@@ -1,6 +1,6 @@
 /**
  * placeholde responses for the project. To be swapped out by actual
- * responses as progresses. best viewed collapsed
+ * responses as progreses. best viewed collapsed
  */
 const responses = {
     home: {
